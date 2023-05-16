@@ -158,6 +158,7 @@ public class calculadora {
                 if ((resultado > 0) && !nuevaOperacion) {
                     calcularResultado();
                 } else {
+                    //noinspection removal
                     resultado = new Double(text.getText());
                 }
             }
@@ -165,6 +166,7 @@ public class calculadora {
             nuevaOperacion = true;
         }
 
+        @SuppressWarnings("removal")
         private void calcularResultado() {
             if (operacion.equals("+")) {
                 resultado += new Double(text.getText());

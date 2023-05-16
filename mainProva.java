@@ -1,4 +1,5 @@
-package Calculadora;//Aram
+//Aram i Dani
+package Calculadora;
 
 public class mainProva {
     public static void main(String[] args) {
